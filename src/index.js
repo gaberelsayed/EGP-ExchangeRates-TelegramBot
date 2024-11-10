@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 const BOT_TOKEN = process.env.BOT_TOKEN;
 
-const bot = new Bot(BOT_TOKEN);
+const bot = new Bot(BOT_TOKEN);      
 
 (async () => {
 	await bot.api.setMyCommands([
